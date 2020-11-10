@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FBF9F9"
+            android:src="@drawable/amell" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="Amelia Fitri Sanusi"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:background="#FFFFFF"
+            android:text="Skill Programmer : " />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:isIndicator="true"
+            android:numStars="6"
+            android:rating="4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:background="#FFFFFF"
+            android:text="Skill Perancangan Database :" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:isIndicator="true"
+            android:numStars="6"
+            android:rating="5" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:background="#FFFFFF"
+            android:text="Skill Keamanan Sistem :" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:isIndicator="true"
+            android:numStars="6"
+            android:rating="4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:background="#FFFFFF"
+            android:text="Skill Database Administrator :" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:isIndicator="true"
+            android:numStars="6"
+            android:rating="5" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:background="#FFFFFF"
+            android:text="Skill IT Support : " />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:isIndicator="true"
+            android:numStars="6"
+            android:rating="4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:background="#FFFFFF"
+            android:text="Skill Network Engineer" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:isIndicator="true"
+            android:numStars="6"
+            android:rating="4" />
+    </LinearLayout>
+</ScrollView>
